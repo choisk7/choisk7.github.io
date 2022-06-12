@@ -9,13 +9,8 @@ sidebar:
     nav: "docs"
 search: false
 ---
-<div class="notice--success">
-<h4>출처</h4>
-<ul>
-    <li>https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc</li>
-    <li>https://nurilee.com/2020/04/03/lightgbm-definition-parameter-tuning/comment-page-1/?unapproved=659&moderation-hash=8ab5f36d28f2b91d62db23ef4725b89d#comment-659</li>
-</ul>
-</div>{: .notice--danger}
+**[공지사항]** ["출처: https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc"](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc)
+{: .notice--danger}
 
 
 
@@ -181,3 +176,11 @@ $save\\_binary$ : 데이터 파일의 메모리 사이즈를 처리해야 한다
 - feature_fraction을 세팅하여 feature sub-sampling을 하십시오
 - lambda_l1, lambda_l2 그리고 min_gain_to_split 파라미터를 이용해 regularization (정규화) 를 적용하십시오
 - max_depth 를 설정해 Deep Tree 가 만들어지는 것을 방지하십시오
+
+
+---------------
+
+참고
+
+
+[https://nurilee.com/2020/04/03/lightgbm-definition-parameter-tuning/comment-page-1/?unapproved=659&moderation-hash=8ab5f36d28f2b91d62db23ef4725b89d#comment-659](https://nurilee.com/2020/04/03/lightgbm-definition-parameter-tuning/comment-page-1/?unapproved=659&moderation-hash=8ab5f36d28f2b91d62db23ef4725b89d#comment-659)

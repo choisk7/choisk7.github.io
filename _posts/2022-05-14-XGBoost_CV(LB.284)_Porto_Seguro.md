@@ -9,13 +9,9 @@ sidebar:
     nav: "docs"
 search: false
 ---
-<div class="notice--success">
-<h4>출처</h4>
-<ul>
-    <li>https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook</li>
-    <li>https://kubig-2021-2.tistory.com/38</li>
-</ul>
-</div>{: .notice--danger}
+**[공지사항]** ["출처: https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook"](https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook)
+{: .notice--danger}
+
 
 
 
@@ -399,6 +395,8 @@ sub.to_csv('xgb_submit.csv', float_format='%.6f', index=False)
 ```
 
 
-```python
+-------------
 
-```
+참고
+
+[https://kubig-2021-2.tistory.com/38](https://kubig-2021-2.tistory.com/38)

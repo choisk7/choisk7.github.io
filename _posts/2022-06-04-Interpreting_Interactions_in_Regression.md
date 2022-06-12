@@ -9,15 +9,8 @@ sidebar:
     nav: "docs"
 search: false
 ---
-<div class="notice--success">
-<h4>출처</h4>
-<ul>
-    <li>https://www.theanalysisfactor.com/interpreting-interactions-in-regression/</li>
-    
-</ul>
-</div>{: .notice--danger}
-
-
+**[공지사항]** ["출처: https://www.theanalysisfactor.com/interpreting-interactions-in-regression/"](https://www.theanalysisfactor.com/interpreting-interactions-in-regression/)
+{: .notice--danger}
 
 
 
