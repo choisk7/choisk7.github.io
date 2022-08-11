@@ -115,8 +115,8 @@ $$\mathcal{L}=\sum_{s=1}^{|D|} \log \left(P\left(X^{(s)}\right)=\right.\sum_{s=1
 1. Heuristically, 충분히 큰 seed의 단어 사전을 training corpus로부터 만듭니다. = make a reasonably big seed vocabulary from the training corpus.
 2. 다음의 과정을 $\left\vert \mathcal{V} \right\vert$가 목표로하는 단어 사전 크기가 될때까지 반복합니다.
     - 단어 사전을 고정하고, $p(x)$를 EM algorithm을 이용해 최적화합니다.
-    
     <br/>
+    
     - 각각의 subword $x_i$에 대한 $$\operatorname{loss}_{i}$$ 를 계산합니다. 이때 $$\operatorname{loss}_{i}$$ 는 현재 단어 사전에서 subword $x_i$가 제거 되었을 때, likelihood $\mathcal{L}$이 얼마나 감소하는지를 나타냅니다.
     <br/>
     
