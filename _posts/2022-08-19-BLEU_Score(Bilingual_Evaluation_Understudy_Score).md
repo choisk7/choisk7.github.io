@@ -376,9 +376,6 @@ print(bleu.sentence_bleu(list(map(lambda ref: ref.split(), references)), candida
 
 실제 BLEU 구현은 이것보다 좀 더 복잡합니다. NLTK 패키지에서의 상세한 BLEU 코드는 아래의 링크에서 확인할 수 있으며 이번 챕터에서 구현한 코드와 실제 구현에서 고려해야할 것들은 무엇이 있는지 비교해봅시다.
 
-https://www.nltk.org/_modules/nltk/translate/bleu_score.html
+-----------------
 
-
-```python
-
-```
+[https://www.nltk.org/_modules/nltk/translate/bleu_score.html](https://www.nltk.org/_modules/nltk/translate/bleu_score.html)
