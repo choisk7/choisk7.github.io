@@ -9,8 +9,8 @@ sidebar:
     nav: "docs"
 search: false
 ---
-
-출처: [https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
+**[공지사항]** ["출처: https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219"](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
+{: .notice--danger}
 
 # How to automatically create machine learning features
 
