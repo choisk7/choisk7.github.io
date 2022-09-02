@@ -55,7 +55,13 @@ BLEU는 완벽한 방법이라고는 할 수는 없지만 몇 가지 이점을 �
 
 이러한 측정 방법을 **유니그램 정밀도(Unigram Precision)**라고 합니다. 이를 식으로 표현하면 다음과 같습니다.
 
-$$\textstyle\text{Unigram Precision =}\frac{\text{Ref들 중에서 존재하는 Ca의 단어의 수}}{\text{Ca의 총 단어 수}} = \frac{\text{the number of Ca words(unigrams) which occur in any Ref}}{\text{the total number of words in the Ca}}$$
+<br/>
+<br/>
+
+$$\begin{align}&\text{Unigram Precision} \\ \\&= \frac{\text{Ref들 중에서 존재하는 Ca의 단어의 수}}{\text{Ca의 총 단어 수}} \\&= \frac{\text{the number of Ca words(unigrams) which occur in any Ref}}{\text{the total number of words in the Ca}}\end{align}$$
+
+<br/>
+<br/>
 
 Ca1의 단어들은 얼추 훑어만봐도 Ref1, Ref2, Ref3에서 전반적으로 등장하는 반면, Ca2는 그렇지 않습니다. 이는 Ca1이 Ca2보다 더 좋은 번역 문장임을 의미합니다. 예를 들어 Ca1의 It is a guide to action은 Ref1에서, which는 Ref2에서, ensures that the militrary는 Ref1에서, always는 Ref2와 Ref3에서, commands는 Ref1에서, of the party는 Ref2에서 등장하였습니다. (대소문자 구분은 없다고 합시다.) Ca1에 있는 단어 중 Ref1, Ref2, Ref3 어디에도 등장하지 않은 단어는 obeys뿐입니다. 반면, Ca2는 Ca1과 비교하여 상대적으로 Ref1, 2, 3에 등장한 단어들이 적습니다.
 
@@ -81,12 +87,22 @@ $$\textstyle{\scriptsize}\text{Unigram Precision =}\frac{\text{Ref들과 Ca를 �
 
 정밀도의 분자를 계산하기 위한 각 유니그램의 카운트는 다음과 같이 수정합시다. 우선, 유니그램이 하나의 Ref에서 최대 몇 번 등장했는지를 카운트합니다. 이 값을 maximum reference count를 줄인 의미에서 Max_Ref_Count라고 부르겠습니다. Max_Ref_Count가 기존의 단순 카운트한 값보다 작은 경우에는 이 값을 최종 카운트 값으로 대체합니다. 정밀도의 분자 계산을 위한 새로운 카운트 방식을 식으로 표현하면 다음과 같습니다.
 
+<br/>
+
 $$Count_{clip}\ =\ min(Count,\ Max\_Ref\_Count)$$
+
+<br/>
 
 위의 카운트를 사용하여 분자를 계산한 정밀도를 **보정된 유니그램 정밀도(Modified Unigram Precision)**라고 합니다.
 
-$$\textstyle\text{Modified Unigram Precision =}\frac{\text{Ca의 각 유니그램에 대해 }Count_{clip}\text{을 수행한 값의 총 합}}{\text{Ca의 총 유니그램 수}}=\frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
-{\sum_{unigram∈Candidate}\ Count(unigram)}$$
+<br/>
+<br/>
+
+$$\begin{align}&\text{Modified Unigram Precision} \\ \\&= \frac{\text{Ca의 각 유니그램에 대해 }Count_{clip}\text{을 수행한 값의 총 합}}{\text{Ca의 총 유니그램 수}} \\&= \frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
+{\sum_{unigram∈Candidate}\ Count(unigram)}\end{align}$$
+
+<br/>
+<br/>
 
 분모의 경우에는 이전과 동일하게 Ca의 모든 유니그램에 대해서 각각 $Count$하고 모두 합한 값을 사용합니다.
 
