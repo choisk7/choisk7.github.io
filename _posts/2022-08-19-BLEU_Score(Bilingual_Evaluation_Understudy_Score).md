@@ -77,13 +77,13 @@ $$\text{Ca2 Unigram Precision =} \frac{8}{14}$$
 
 위의 Ca는 the만 7개가 등장한 터무니 없는 번역입니다. 하지만 이 번역은 앞서 배운 유니그램 정밀도에 따르면 $\frac{7}{7}=1$이라는 최고의 성능 평가를 받게 됩니다. 이에 유니그램 정밀도를 다소 보정할 필요를 느낍니다. 이를 보정하기 위해서는 정밀도의 분자를 계산하기 위해 Ref와 매칭하며 카운트하는 과정에서 Ca의 유니그램이 이미 Ref에서 매칭된 적이 있었는지를 고려해야 합니다.
 
-$$\textstyle{\scriptsize}\text{Unigram Precision =}\frac{\text{Ref들과 Ca를 고려한 새로운 카운트 방법이 필요!}}{\text{Ca의 총 유니그램 수}}$$
+$$\scriptstyle{\scriptsize}\text{Unigram Precision =}\frac{\text{Ref들과 Ca를 고려한 새로운 카운트 방법이 필요!}}{\text{Ca의 총 유니그램 수}}$$
 
 정밀도의 분자를 계산하기 위한 각 유니그램의 카운트는 다음과 같이 수정합시다. 우선, 유니그램이 하나의 Ref에서 최대 몇 번 등장했는지를 카운트합니다. 이 값을 maximum reference count를 줄인 의미에서 Max_Ref_Count라고 부르겠습니다. Max_Ref_Count가 기존의 단순 카운트한 값보다 작은 경우에는 이 값을 최종 카운트 값으로 대체합니다. 정밀도의 분자 계산을 위한 새로운 카운트 방식을 식으로 표현하면 다음과 같습니다.
 
 <br/>
 
-$$Count_{clip}\ =\ min(Count,\ Max\_Ref\_Count)$$
+$$\scriptstyle Count_{clip}\ =\ min(Count,\ Max\_Ref\_Count)$$
 
 <br/>
 
@@ -249,12 +249,12 @@ Ca3은 사실 Ca1에서 모든 유니그램의 순서를 랜덤으로 섞은 실
 
 이제 보정된 정밀도를 식으로 정의해보겠습니다. $p_n$에서 $n$은 n-gram에서의 $p$을 의미한다고 하였을 때, 앞서 배운 보정된 유니그램 정밀도의 식을 상기해봅시다.
 
-$$p_{1}=\frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
+$$\scriptstyle p_{1}=\frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
 {\sum_{unigram∈Candidate}\ Count(unigram)}$$
 
 이를 n-gram으로 일반화하면 아래와 같습니다.
 
-$$p_{n}=\frac{\sum_{n\text{-}gram∈Candidate}\ Count_{clip}(n\text{-}gram)}
+$$\scriptstyle p_{n}=\frac{\sum_{n\text{-}gram∈Candidate}\ Count_{clip}(n\text{-}gram)}
 {\sum_{n\text{-}gram∈Candidate}\ Count(n\text{-}gram)}$$
 
 유니그램 정밀도에서는 $n$이 1이므로 $p_1$로 표현하였으나, 일반화 된 식에서는 
