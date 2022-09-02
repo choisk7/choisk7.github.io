@@ -58,7 +58,7 @@ BLEU는 완벽한 방법이라고는 할 수는 없지만 몇 가지 이점을 �
 <br/>
 <br/>
 
-$$\begin{align}&\text{Unigram Precision} \\ \\&= \frac{\text{Ref들 중에서 존재하는 Ca의 단어의 수}}{\text{Ca의 총 단어 수}}  \\ \\&= \frac{\text{the number of Ca words(unigrams) which occur in any Ref}}{\text{the total number of words in the Ca}}\end{align}$$
+$$\textstyle\begin{align}&\text{Unigram Precision} \\ \\&= \frac{\text{Ref들 중에서 존재하는 Ca의 단어의 수}}{\text{Ca의 총 단어 수}}  \\ \\&= \frac{\text{the number of Ca words(unigrams) which occur in any Ref}}{\text{the total number of words in the Ca}}\end{align}$$
 
 <br/>
 <br/>
@@ -98,7 +98,7 @@ $$Count_{clip}\ =\ min(Count,\ Max\_Ref\_Count)$$
 <br/>
 <br/>
 
-$$\begin{align}&\text{Modified Unigram Precision} \\ \\&= \frac{\text{Ca의 각 유니그램에 대해 }Count_{clip}\text{을 수행한 값의 총 합}}{\text{Ca의 총 유니그램 수}} \\ \\&= \frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
+$$\textstyle\begin{align}&\text{Modified Unigram Precision} \\ \\&= \frac{\text{Ca의 각 유니그램에 대해 }Count_{clip}\text{을 수행한 값의 총 합}}{\text{Ca의 총 유니그램 수}} \\ \\&= \frac{\sum_{unigram∈Candidate}\ Count_{clip}(unigram)}
 {\sum_{unigram∈Candidate}\ Count(unigram)}\end{align}$$
 
 <br/>
