@@ -816,7 +816,7 @@ primitives[primitives['type'] == 'transform'].head(10)
 # Deep Feature Synthesis
 DFS(Deep Feature Synthesis)는 featuretool이 새로운 feature을 만드는데 사용하는 프로세스입니다. DFS는 feature primitives를 스택하여 primitives의 수와 동일한 깊이를 갖는 feature를 형성합니다. 예를 들어, 고객의 previoius 대출(예: ```MAX(previous.loan_amount)```)의 최대값을 취하면 이는 깊이가 1인 "deep feature"입니다. 깊이가 2인 feature을 만들기 위해 previous 대출(예: ```MAX(previous(MEAN(installments.payment)))```)당 고객의 월 평균 지불액의 최대값을 취함으로써 primitives를 쌓을 수 있습니다.
 
-([Deep Feature Synthesis 관련 논문](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://dai.lids.mit.edu/wp-content/uploads/2017/10/DSAA_DSM_2015.pdf))
+([Deep Feature Synthesis 관련 논문](https://choisk7.github.io/papers/Deep_Feature_Synthesis-Towards_Automating_Data_Science_Endeavors/))
 
 featuretools에서 DFS를 수행하기 위해 dfs 함수를 사용하여 ```dataframes```, ```target_dataframe_name```(feature을 만들려는 위치), ```agg_primitives```, ```trans_primitives``` 및 feature의 ```max_depth```를 전달합니다. 여기서 우리는 기본 aggregation 및 transformation primitives, max_depth는 2를 사용하고 ```app``` entity에 대한 primitives를 계산합니다. 이 프로세스는 계산 비용이 많이 들기 때문에 ```features_only=True```를 사용하여 함수를 실행해 features 자체를 계산하지 않고 features의 리스트만 return할 수 있습니다. 이것은 추가 계산을 시작하기 전에 결과로 나온 features를 살펴보는 데 유용할 수 있습니다.
 
