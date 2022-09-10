@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction/notebook"](https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-start-here-a-gentle-introduction"](https://www.kaggle.com/code/jundthird/kor-start-here-a-gentle-introduction)
 {: .notice--danger}
 
 # Data
@@ -1995,3 +1995,8 @@ feature_importances_domain_sorted = plot_feature_importances(feature_importances
 Kaggle은 단일 metric에서 최고의 성능을 달성하는 데만 관심이 있고 해석에는 관심이 없다는 점에서 일반적인 데이터 과학 문제와 약간 다릅니다. 그러나 모델이 결정을 내리는 방식을 이해하려고 시도함으로써 모델을 개선하거나 오류를 수정하기 위해 error를 조사할 수 있습니다. 
 
 이 노트북을 통해 이 머신러닝 대회에 참가할 수 있기를 바랍니다. 이제 커뮤니티의 도움을 받아 스스로 나가서 큰 문제를 해결할 준비가 되었기를 바랍니다.
+
+
+-----------------------
+
+참고: [https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction/notebook](https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction/notebook)

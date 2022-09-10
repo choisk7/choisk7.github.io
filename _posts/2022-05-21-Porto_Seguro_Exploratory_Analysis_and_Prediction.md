@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/gpreda/porto-seguro-exploratory-analysis-and-prediction/notebook"](https://www.kaggle.com/code/gpreda/porto-seguro-exploratory-analysis-and-prediction/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-exploratory-analysis-and-prediction"](https://www.kaggle.com/code/jundthird/kor-exploratory-analysis-and-prediction)
 {: .notice--danger}
 
 

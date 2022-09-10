@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook"](https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-eda-to-prediction"](https://www.kaggle.com/code/jundthird/kor-eda-to-prediction)
 {: .notice--danger}
 
 # Part1: Exploratory Data Analysis(EDA)
@@ -2657,4 +2657,4 @@ plt.show()
 
 -------
 
-# End
+참고: [https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook](https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook)

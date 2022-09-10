@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-basics/notebook"](https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-basics/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-automated-feature-engineering-basics"](https://www.kaggle.com/code/jundthird/kor-automated-feature-engineering-basics)
 {: .notice--danger}
 
 
@@ -47149,3 +47149,7 @@ def model(features, test_features, encoding='ohe', n_folds=5):
 
     return submission, feature_importances, metrics
 ```
+
+-----------------
+
+참고: [https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-basics/notebook](https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-basics/notebook)

@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook"](https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-xgboost-cv-lb-284"](https://www.kaggle.com/code/jundthird/kor-xgboost-cv-lb-284)
 {: .notice--danger}
 
 
@@ -399,4 +399,6 @@ sub.to_csv('xgb_submit.csv', float_format='%.6f', index=False)
 
 참고
 
-[https://kubig-2021-2.tistory.com/38](https://kubig-2021-2.tistory.com/38)
+- [https://kubig-2021-2.tistory.com/38](https://kubig-2021-2.tistory.com/38)
+
+- [https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook](https://www.kaggle.com/code/aharless/xgboost-cv-lb-284/notebook)

@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/arthurtok/interactive-porto-insights-a-plot-ly-tutorial/notebook"](https://www.kaggle.com/code/arthurtok/interactive-porto-insights-a-plot-ly-tutorial/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-interactive-porto-insights-plot-ly"](https://www.kaggle.com/code/jundthird/kor-interactive-porto-insights-plot-ly)
 {: .notice--danger} 
 
 
@@ -727,7 +727,12 @@ py.iplot(fig1, filename="plots")
 
 Random Forest와 Gradient Boosting 모델에서 가장 중요한 칼럼은 **ps_car_13**
 
---------------
+
 # Conclusion
 
 null 값과 데이터를 점검하여 Porto Seguro 데이터 세트에 대해 상당히 광범위한 검사를 수행하고, feature 간의 선형 상관 관계를 조사하고, 일부 feature 분포를 검사하고 몇 가지 학습 모델(Random Forest, Gradient Boosting)을 구현했습니다. (모델이 중요하다고 생각하는 feature을 식별하기 위해)
+
+
+----------------
+
+참고: [https://www.kaggle.com/code/arthurtok/interactive-porto-insights-a-plot-ly-tutorial/notebook](https://www.kaggle.com/code/arthurtok/interactive-porto-insights-a-plot-ly-tutorial/notebook)

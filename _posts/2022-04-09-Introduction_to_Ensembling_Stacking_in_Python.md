@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python/notebook"](https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-introduction-to-ensembling-stacking"](https://www.kaggle.com/code/jundthird/kor-introduction-to-ensembling-stacking)
 {: .notice--danger}
 
 
@@ -1121,4 +1121,5 @@ StackingSubmission.to_csv("StackingSubmission.csv", index=False)
 ```
 
 ------------
-# End
+
+참고: [https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python/notebook](https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python/notebook)

@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/bertcarremans/data-preparation-exploration/notebook"](https://www.kaggle.com/code/bertcarremans/data-preparation-exploration/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-data-preparation-exploration"](https://www.kaggle.com/code/jundthird/kor-data-preparation-exploration)
 {: .notice--danger} 
 
 # Introduction
@@ -2931,5 +2931,6 @@ scaler.fit_transform(train.drop(["target"], axis=1))
             -0.11358706, -0.72653353]])
 
 
+------------
 
-# End
+참고: [https://www.kaggle.com/code/bertcarremans/data-preparation-exploration/notebook](https://www.kaggle.com/code/bertcarremans/data-preparation-exploration/notebook)

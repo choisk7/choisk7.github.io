@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering-p2/notebook"](https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering-p2/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-manual-feature-engineering-pt2"](https://www.kaggle.com/code/jundthird/kor-manual-feature-engineering-pt2)
 {: .notice--danger}
 
 
@@ -2269,3 +2269,6 @@ metrics
 submission.to_csv('submission_manualp2.csv', index=False)
 ```
 
+-------------
+
+참고: [https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering-p2/notebook](https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering-p2/notebook)

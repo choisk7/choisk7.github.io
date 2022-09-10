@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering/notebook"](https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-introduction-manual-feature-engineering"](https://www.kaggle.com/code/jundthird/kor-introduction-manual-feature-engineering)
 {: .notice--danger}
 
 
@@ -5627,3 +5627,6 @@ submission_corrs.to_csv('test_two.csv', index=False)
 모든 작업을 마친 후 extra information를 포함하면 성능이 향상되었다고 말할 수 있습니다. 모델은 확실히 데이터에 최적화되어 있지 않지만 calculated features을 사용할 때 원래 데이터 세트보다 눈에 띄게 개선되었습니다.
 
 
+----------------
+
+참고: [https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering/notebook](https://www.kaggle.com/code/willkoehrsen/introduction-to-manual-feature-engineering/notebook)

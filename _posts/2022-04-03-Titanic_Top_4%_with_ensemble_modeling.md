@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/notebook"](https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/notebook)
+**[공지사항]** ["출처: https://www.kaggle.com/code/jundthird/kor-titanic-top-4-with-ensemble-modeling"](https://www.kaggle.com/code/jundthird/kor-titanic-top-4-with-ensemble-modeling)
 {: .notice--danger}
 
 # Titanic Top 4% with ensemble modeling
@@ -2479,4 +2479,5 @@ results.to_csv("ensemble_python_voting.csv", index=False)
 ```
 
 ---------------
-# End
+
+참고: [https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/notebook](https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/notebook)
