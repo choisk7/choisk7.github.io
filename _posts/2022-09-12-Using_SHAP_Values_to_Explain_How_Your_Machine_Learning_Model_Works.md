@@ -29,7 +29,7 @@ SHAP (**SH**apley **A**dditive ex**P**lanations)은 협동 게임 이론을 기�
 
 SHAP은 각 예제 또는 관찰에 대해 모델 output에 대한 각 feature의 개별 기여도를 공개합니다.
 
-California Housing Dataset [1,2](scikit-learn 라이브러리에서 사용 가능)이 주어지면 단일 관측치를 분리하고, 이 단일 데이터 포인트에 대한 SHAP 값을 계산할 수 있습니다.
+California Housing Dataset \[1,2\](scikit-learn 라이브러리에서 사용 가능)이 주어지면 단일 관측치를 분리하고, 이 단일 데이터 포인트에 대한 SHAP 값을 계산할 수 있습니다.
 
 
 ```python
