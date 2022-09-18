@@ -1017,4 +1017,4 @@ plt.xlabel("Train Step")
 이제 여기서 구현한 트랜스포머 모델을 바탕으로 다음 챕터에서 이어서 챗봇을 만들어보겠습니다.
 
 ---------------
-논문에서는 언급되지 않은 트랜스포머의 구현 이야기 : [https://tunz.kr/post/4](https://tunz.kr/post/4)
+논문에서는 언급되지 않은 트랜스포머의 구현 이야기 : [https://choisk7.github.io/dl/Transformer_Details_Not_Described_in_The_Paper/](https://choisk7.github.io/dl/Transformer_Details_Not_Described_in_The_Paper/)
