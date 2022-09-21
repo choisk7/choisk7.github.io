@@ -11,6 +11,7 @@ search: false
 ---
 **[공지사항]** ["출처: https://medium.com/@fareedkhandev/apply-40-machine-learning-models-in-two-lines-of-code-c01dad24ad99"](https://medium.com/@fareedkhandev/apply-40-machine-learning-models-in-two-lines-of-code-c01dad24ad99)
 {: .notice--danger}
+
 <p align="center"><img src="/assets/images/220919/1.png"></p>
 
 사용할 라이브러리에는 ML taks에 일반적으로 사용하는 특정 버전의 라이브러리가 필요하기 때문에 이 tasks에 **google colab** 또는 **Kaggle**을 사용하는 것이 좋습니다.
