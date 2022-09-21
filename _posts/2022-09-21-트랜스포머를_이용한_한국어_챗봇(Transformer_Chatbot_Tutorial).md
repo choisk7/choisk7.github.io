@@ -15,6 +15,8 @@ search: false
 
 # 트랜스포머를 이용한 한국어 챗봇(Transformer Chatbot Tutorial)
 
+([여기 설명을 먼저 읽고오세요](https://choisk7.github.io/dl/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8(Transformer)/))
+
 ## 1. 데이터 로드하기
 
 
