@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "논문에서 설명하지 않은 Trnasformer Details"
+title:  "논문에서 설명하지 않은 Transformer Details"
 categories: DL
 tag: [transformer, attention]
 toc: true
