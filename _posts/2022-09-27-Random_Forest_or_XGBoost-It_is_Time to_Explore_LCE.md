@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Random Forest 아니면 XGBoost? 이제는 LCE를 살펴봐야 할 시간입니다"
+title:  "Random Forest 아니면 XGBoost? 이제는  Local Cascade Ensemble (LCE)를 살펴봐야 할 시간입니다"
 categories: ML
-tag: [LCE, 한번더]
+tag: [LCE, Local Cascade Ensemble, 한번더]
 toc: true
 author_profile: false
 sidebar:
