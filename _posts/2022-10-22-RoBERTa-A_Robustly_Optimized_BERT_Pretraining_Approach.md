@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[논문] RoBERTa: ARobustly Optimized BERT Pretraining Approach (2019)"
+title:  "[논문] RoBERTa: A Robustly Optimized BERT Pretraining Approach (2019)"
 categories: Papers
 tag: [RoBERTa]
 toc: true
