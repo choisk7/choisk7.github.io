@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: false
 ---
-**[공지사항]** ["출처: https://syslog.ravelin.com/classification-with-tabnet-deep-dive-49a0dcc8f7e8"]https://syslog.ravelin.com/classification-with-tabnet-deep-dive-49a0dcc8f7e8)
+**[공지사항]** ["출처: https://syslog.ravelin.com/classification-with-tabnet-deep-dive-49a0dcc8f7e8"](https://syslog.ravelin.com/classification-with-tabnet-deep-dive-49a0dcc8f7e8)
 {: .notice--danger}
 
 # Classification with TabNet: Deep Dive
