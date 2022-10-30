@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "트랜스포머(Transformer)"
+title:  "트랜스포머(Transformer) 설명"
 categories: DL
 tag: [transformer, attention]
 toc: true
