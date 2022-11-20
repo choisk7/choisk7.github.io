@@ -85,7 +85,7 @@ LIT는 서버로 실행하거나 Colab 및 Jupyter와 같은 python 노트북 �
 <p align="center"><img src="https://pair-code.github.io/lit/assets/images/lit-tweet.gif"></p>
 
 **NVIDIA Apex - AMP**
-- In [Speeding up Transformer w/ Optimization Strategies]() notebook. - 글 작성 후, 링크 달기
+- In [Speeding up Transformer w/ Optimization Strategies](https://choisk7.github.io/kaggle/Speeding_up_Transformer_with_Optimization_Strategies/) notebook.
 
 **Weighted Layers Pooling**
 - In [Utilizing Transformer Representations Efficiently]() notebook. - 글 작성 후, 링크 달기
