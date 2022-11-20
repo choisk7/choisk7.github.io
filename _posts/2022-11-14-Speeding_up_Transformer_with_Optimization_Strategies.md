@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Feedback Prize - English Language Learning] On Stability of Few-Sample Transformer Fine-Tuning"
+title:  "[Feedback Prize - English Language Learning] Speeding up Transformer w/ Optimization Strategies"
 categories: Kaggle
 tag: [Feedback Prize - English Language Learning]
 toc: true
